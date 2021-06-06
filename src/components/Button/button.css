@@ -1,0 +1,16 @@
+.btn {
+  border: 0;
+  display: inline-flex;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+  color: var(--light);
+}
+.btn:disabled {
+  opacity: 0.5 !important;
+  cursor: not-allowed !important;
+}
+.btn:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}

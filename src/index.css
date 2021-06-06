@@ -1,0 +1,119 @@
+:root {
+  --dark: #333;
+  --light: #f5f5f5;
+  --surface: #cecece;
+}
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-weight: 500;
+  border-radius: 3px;
+}
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.bg-surface {
+  background-color: var(--surface);
+}
+.w-100 {
+  width: 100%;
+}
+.h-100 {
+  height: 100%;
+}
+.p-1rem {
+  padding: 1rem;
+}
+.px-1rem {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.py-1rem {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.m-1rem {
+  margin: 1rem;
+}
+.mt-1rem {
+  margin-top: 1rem;
+}
+.mx-1rem {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.my-1rem {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.d-flex {
+  display: flex !important;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-start {
+  align-items: flex-start;
+}
+
+.align-items-end {
+  align-items: flex-end;
+}
+
+.justify-content-start {
+  justify-content: flex-start;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+.clean-list {
+  list-style: none;
+  padding: 1rem;
+  margin: 0;
+}
+.clean-list .clean-list-items {
+  padding: 1rem;
+}
+.clean-list .clean-list-items:hover {
+  background-color: var(--light);
+}
+.calc-100vh-300px {
+  height: calc(100vh - 300px);
+}
+.calc-100vh-400px {
+  height: calc(100vh - 400px);
+}
+.overflow-y-auto {
+  overflow-y: auto;
+}
+.p-relative {
+  position: relative;
+}
+.search-x-button {
+  position: absolute;
+  padding: 1rem;
+  right: 5rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+}
+.search-x-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.75;
+}
